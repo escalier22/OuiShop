@@ -1,0 +1,50 @@
+#header img{
+    width: 80px;
+}
+
+#main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+.media img{
+    width: 200px;
+}
+
+.card img{
+    width: 200px;
+}
+
+.footer{
+    color: white;
+    background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372); 
+}
+
+.footer a{
+    text-transform: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: rgba(255,255,255,0.8);
+}
